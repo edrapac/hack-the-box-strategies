@@ -24,7 +24,7 @@ Note these are based on common vulnerabilities found within HTB machines. Experi
 ### Windows
 
 * Port 135 / 445 RPC
-	* unauthenticated RPC test
+	* unauthenticated RPC test - (`rpcclient -U "" target`)
 	* test to enumerate environment with valid creds
 ## Exploitation / Foothold
 
@@ -42,6 +42,13 @@ Note these are based on common vulnerabilities found within HTB machines. Experi
 * chisel - tunneling w/ ability to port forward easily
 * plink - like chisel except for windows
 * crackmapexec - password spraying and user enumeration for AD. Can be used to execute remote commands as well.
-* https://rahmatnurfauzi.medium.com/windows-privilege-escalation-scripts-techniques-30fa37bd194#:~:text=Windows%2Dprivesc%2Dcheck%20is%20standalone,local%20apps%20(e.g.%20databases)
 
-https://github.com/Hackplayers/evil-winrm
+* https://github.com/Hackplayers/evil-winrm - Fantastic WinRM shell tool
+
+* https://github.com/WhiteWinterWolf/wwwolf-php-webshell - Hands down the BEST phpshell
+
+## Other methodology blog posts
+
+* https://rahmatnurfauzi.medium.com/windows-privilege-escalation-scripts-techniques-30fa37bd194#:~:text=Windows%2Dprivesc%2Dcheck%20is%20standalone,local%20apps%20(e.g.%20databases) - Awesome list of windows privesc tools and strategies
+
+* https://highon.coffee/blog/penetration-testing-tools-cheat-sheet/ - Incredibly useful methodology blog, so useful that I even archived it [here]("https://github.com/edrapac/hack-the-box-strategies/high-on-coffee/high-on-coffee.html")
