@@ -51,4 +51,4 @@ Note these are based on common vulnerabilities found within HTB machines. Experi
 
 * https://rahmatnurfauzi.medium.com/windows-privilege-escalation-scripts-techniques-30fa37bd194#:~:text=Windows%2Dprivesc%2Dcheck%20is%20standalone,local%20apps%20(e.g.%20databases) - Awesome list of windows privesc tools and strategies
 
-* https://highon.coffee/blog/penetration-testing-tools-cheat-sheet/ - Incredibly useful methodology blog, so useful that I even archived it [here]("https://github.com/edrapac/hack-the-box-strategies/high-on-coffee/high-on-coffee.html")
+* https://highon.coffee/blog/penetration-testing-tools-cheat-sheet/ - Incredibly useful methodology blog, so useful that I even archived it [here](https://github.com/edrapac/hack-the-box-strategies/high-on-coffee/high-on-coffee.html)
